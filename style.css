@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0d3b66;
+}
+
+header h1 {
+  background-color: #e7ecef;
+  text-align: center;
+  margin: -30px 0 30px 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+header h1 strong {
+  color: #0d3b66;
+}
+
+article {
+  margin: 100px auto;
+}
+
+main {
+  max-width: 650px;
+  background-color: #84bcda;
+  border-radius: 25px;
+  margin: auto;
+  padding: 20px 5px 20px 5px;
+  -webkit-box-shadow: 0px 0px px 1px black;
+          box-shadow: 0px 0px px 1px black;
+}
+
+.bloco {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.lado1 div.info {
+  width: 275px;
+  height: 300px;
+  border-radius: 12px;
+  background-color: rgba(61, 61, 61, 0.445);
+  -webkit-box-shadow: inset 0px 0px 5px #84bcda;
+          box-shadow: inset 0px 0px 5px #84bcda;
+}
+
+section.lado1 div.info form {
+  width: 225px;
+  height: 145px;
+  background-color: #e7ecef;
+  border-radius: 12px;
+  margin: 10px auto;
+}
+
+section.lado1 div.info form h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+section.lado1 div.info form p {
+  margin-left: 10px;
+  margin-top: 5px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+section.lado1 div.info form p input {
+  width: 130px;
+  position: absolute;
+  right: 25px;
+  outline: 0;
+}
+
+section.lado1 div.info button {
+  display: block;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+section.lado1 div.info img {
+  width: 150px;
+  margin: 10px 0px 0px 62.5px;
+}
+
+.clientes, .res {
+  width: 275px;
+  height: 145px;
+  background-color: #a59d9d;
+  -webkit-box-shadow: inset 0px 0px 7px black;
+          box-shadow: inset 0px 0px 7px black;
+  border-radius: 12px;
+}
+
+section.lado2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+section.lado2 div.clientes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+section.lado2 div.clientes div {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.lado2 div.clientes div span {
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: #e7dfc6;
+  border-radius: 5px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+section.lado2 div.res div {
+  margin-top: 25px;
+}
+
+section.lado2 div.res div span {
+  margin-left: 5px;
+}
+
+section.lado2 div.res div p:nth-child(1) {
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+}
+
+section.lado2 div.res div p:nth-child(n+2) {
+  font-size: .9rem;
+  display: inline;
+  text-align: center;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

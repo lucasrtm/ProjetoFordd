@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford</title> <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+<article>  
+    <header>
+        <h1>Cadastre seu carro <strong>FORD</strong></h1>
+    </header>
+    <main>
+        <div class="bloco">
+           <section class="lado1">
+                <div class="info">
+                    <img src="ford.png" alt="">
+                    <form action="#">
+
+                        <h1>Preencha todas as informações</h1>
+                        <p>
+                            <label for="">Nome:</label>
+                            <input id="Inp.nome" type="text">
+                        </p>
+                        <p>
+                            <label for="">Idade:</label>
+                            <input id="Inp.idade" type="number">
+                        </p>
+                        <p>
+                            <label for="">Cidade:</label>
+                            <input id="Inp.cidade" type="text">
+                        </p>
+                        <p>
+                            <label for="">Carro:</label>
+                            <input id="Inp.carro" type="text">
+                        </p>
+                    </form>
+                    <button onclick="cadastrar()">Cadastrar</button>
+                </div>
+
+           </section>
+
+           <section class="lado2">
+                <div class="clientes">
+                        <div class="div cliente">
+                            <span onclick="cliente(0)" id="cliente1"></span>
+                        </div>
+                        <div>
+                            <span onclick="cliente(1)" id="cliente2"></span>
+                        </div>
+                        <div>
+                            <span onclick="cliente(2)" id="cliente3"></span>
+                        </div>
+                        <div>
+                            <span onclick="cliente(3)" id="cliente4"></span>
+                        </div>
+                </div> 
+
+                <div class="res">
+                    <div>
+                        <p id="REScod">CÓDIGO DO CLIENTE #0</p>
+                        <span>NOME:</span><p id="RESnome"></p> <br>
+                        <span>CIDADE:</span><p id="REScidade"></p> <br>
+                        <span>IDADE:</span><p id="RESidade"></p> <br>
+                        <span>CARRO:</span><p id="REScarro"></p>
+                    </div>
+                </div>
+
+           </section>
+        </div>
+    </main>
+</article>
+ 
+    
+    
+    
+    
+    <script src="js.js"></script> 
+</body>
+</html>
